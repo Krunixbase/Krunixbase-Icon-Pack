@@ -1,0 +1,48 @@
+<svg width="220" height="220" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- Gradient tła: fiolet → niebieski (brand core) -->
+    <defs>
+        <linearGradient id="bgSolid" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#6A00FF" />
+            <stop offset="100%" stop-color="#00A8FF" />
+        </linearGradient>
+
+        <!-- Wypełnienie: jasny → ciemniejszy szary -->
+        <linearGradient id="fillSolid" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FFFFFF" />
+            <stop offset="100%" stop-color="#D0D0D0" />
+        </linearGradient>
+    </defs>
+
+    <!-- Tło gradientowe -->
+    <rect width="512" height="512" fill="url(#bgSolid)" />
+
+    <!-- Heksagon wypełniony -->
+    <polygon
+        points="256,60 380,140 380,280 256,360 132,280 132,140"
+        fill="url(#fillSolid)"
+    />
+
+    <!-- Litera K wypełniona -->
+    <path
+        d="
+      M176 170
+      L226 170
+      L226 240
+
+      L276 170
+      L336 170
+      L276 245
+
+      L336 310
+      L276 310
+      L226 255
+
+      L226 310
+      L176 310
+      Z
+    "
+        fill="url(#fillSolid)"
+    />
+
+</svg>
