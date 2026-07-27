@@ -1,137 +1,112 @@
-# 📦 KRUNIXBASE ICON PACK v1.0
+## **KrunixBase Icon Pack v1.0**
 
-**Oficjalny zestaw ikon Krunixbase — SVG + PNG 220 / PNG 512**
+A modern, scalable, and minimalistic icon pack for the KrunixBase ecosystem.  
+Includes full‑resolution **SVG sources** and ready‑to‑use **PNG exports** in multiple sizes.  
+Designed for applications, dashboards, documentation, and branding materials.
 
 ---
 
-## 🧩 1. Struktura folderów
+## **Folder Structure**
 
 ```
 icons/
-    +---png
-    |   +---220
-    |   |       krunixbase_logo_dark_220.png
-    |   |       krunixbase_logo_gradient_220.png
-    |   |       krunixbase_logo_gradient_mono_220.png
-    |   |       krunixbase_logo_light_220.png
-    |   |       krunixbase_outline_220.png
-    |   |
-    |   \---512
-    |           krunixbase_logo_gradient_512.png
-    |          
-    \---svg
-        |   krunixbase_logo_dark.svg
-        |   krunixbase_logo_dark_green.svg
-        |   krunixbase_logo_gradient.svg
-        |   krunixbase_logo_green.svg
-        |   krunixbase_logo_light.svg
-        |   krunixbase_logo_monochrome.svg
-        |
-        \---variants
-            +---mono
-            |       krunixbase_logo_gradient_mono.svg
-            |
-            +---outline
-            |       krunixbase_logo_outline.svg
-            |
-            +---premium
-            |       krunixbase_logo_premium.svg
-            |
-            \---solid
-                    krunixbase_logo_solid.svg
+    ├── png/
+    │   ├── 220/
+    │   └── 512/
+    └── svg/
+        ├── *.svg
+        └── variants/
+            ├── mono/
+            ├── outline/
+            ├── premium/
+            └── solid/
 ```
 
 ---
 
-## 🎨 2. Oficjalne warianty ikon w pakiecie
+## **SVG Variants Overview**
 
-Każdy wariant jest deterministyczny, modularny i zgodny z brandingiem Krunixbase.
+### **Main SVG Files**
+- krunixbase_logo_dark.svg  
+- krunixbase_logo_dark_green.svg  
+- krunixbase_logo_gradient.svg  
+- krunixbase_logo_green.svg  
+- krunixbase_logo_light.svg  
+- krunixbase_logo_monochrome.svg  
 
-### **Warianty SVG (master format)**
-
-- **Master SVG** — główny plik
-- **Dark** — do ciemnych interfejsów
-- **Light** — do jasnych interfejsów
-- **Gradient** — fiolet → niebieski
-- **Gradient Mono** — elegancki premium
-- **Green** — neonowy Krunixbase Green
-- **Dark Green** — premium zielony na ciemnym tle
-- **Outline** — minimalistyczny techniczny
-- **Mono** — do druku i dokumentacji
-- **Solid** — pełne wypełnienie
-- **Premium** — gradient + akcenty
+### **Variant Sets (`svg/variants/`)**
+- **mono/** — monochrome versions  
+- **outline/** — line‑style versions  
+- **premium/** — gradient and enhanced versions  
+- **solid/** — filled versions  
 
 ---
 
-## 🖼 3. PNG 220 px — zestaw UI/UX
+## **PNG Exports**
 
-PNG 220 px jest idealny do:
+### **220px (UI / App Ready)**
+Located in:
+```
+icons/png/220/
+```
 
-- sidebarów,
-- paneli,
-- dokumentacji,
-- miniaturek,
-- ikon modułów.
-
-W pakiecie znajdują się:
-
-- dark_220
-- light_220
-- gradient_220
-- gradient_mono_220
-- green_220
-- dark_green_220
-- outline_220
+### **512px (Branding / Social Media)**
+Located in:
+```
+icons/png/512/
+```
 
 ---
 
-## 🖼 4. PNG 512 px — zestaw marketingowy
+## **Usage Examples**
 
-PNG 512 px jest idealny do:
+### **HTML**
+```html
+<img src="icons/png/220/krunixbase_logo_dark_220.png" alt="KrunixBase Logo">
+```
 
-- prezentacji,
-- grafik,
-- social media,
-- dużych elementów UI,
-- materiałów brandingowych.
+### **React / Next.js**
+```jsx
+import Logo from '../icons/svg/krunixbase_logo_gradient.svg';
 
-W pakiecie znajdują się:
+export default function Header() {
+  return <Logo width={48} height={48} />;
+}
+```
 
-- dark_512
-- light_512
-- gradient_512
-- gradient_mono_512
-- green_512
-- dark_green_512
-- outline_512
+### **Markdown**
+```markdown
+![KrunixBase Logo](icons/png/512/krunixbase_logo_gradient_512.png)
+```
 
 ---
 
-## 📘 5. README dla pakietu ikon
+## **Design Philosophy**
 
-# Krunixbase Icon Pack v1.0
+The icon pack is structured to support multiple design contexts:
 
-Oficjalny zestaw ikon Krunixbase — deterministyczny, modularny i geometrycznie spójny.
+- **Solid** — strong, bold, product‑ready  
+- **Outline** — lightweight UI elements  
+- **Mono** — documentation, diagrams, low‑contrast environments  
+- **Premium** — gradients, marketing, hero sections  
 
-## Format
+This ensures consistent branding across all KrunixBase materials.
 
-- SVG (master)
-- PNG 220 px (UI/UX)
-- PNG 512 px (branding/marketing)
+---
 
-## Warianty
+## **License — CC‑BY‑4.0**
 
-- Dark
-- Light
-- Gradient
-- Gradient Mono
-- Green
-- Dark Green
-- Outline
-- Mono
-- Solid
-- Premium
+This icon pack is licensed under the **Creative Commons Attribution 4.0 International License (CC‑BY‑4.0)**.
 
-## Licencja
+You are free to:
 
-CC-BY-4.0
+- **Share** — copy and redistribute the material  
+- **Adapt** — remix, transform, and build upon the material  
+
+Under the following terms:
+
+- **Attribution** — You must give appropriate credit and indicate if changes were made.  
+- No additional restrictions may be applied.
+
+Full license text:  
+`https://creativecommons.org/licenses/by/4.0/` [(creativecommons.org in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby%2F4.0%2F")
