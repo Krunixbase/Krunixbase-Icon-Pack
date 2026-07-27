@@ -7,42 +7,39 @@
 ## 🧩 1. Struktura folderów
 
 ```
-assets/
-└── icons/
-    ├── svg/
-    │   ├── krunixbase_logo_master.svg
-    │   ├── krunixbase_logo_dark.svg
-    │   ├── krunixbase_logo_light.svg
-    │   ├── krunixbase_logo_gradient.svg
-    │   ├── krunixbase_logo_gradient_mono.svg
-    │   ├── krunixbase_logo_green.svg
-    │   ├── krunixbase_logo_dark_green.svg
-    │   ├── krunixbase_logo_outline.svg
-    │   └── variants/
-    │       ├── mono/
-    │       ├── solid/
-    │       └── premium/
-    │
-    ├── png/
-    │   ├── 220/
-    │   │   ├── krunixbase_logo_dark_220.png
-    │   │   ├── krunixbase_logo_light_220.png
-    │   │   ├── krunixbase_logo_gradient_220.png
-    │   │   ├── krunixbase_logo_gradient_mono_220.png
-    │   │   ├── krunixbase_logo_green_220.png
-    │   │   ├── krunixbase_logo_dark_green_220.png
-    │   │   └── krunixbase_logo_outline_220.png
-    │   │
-    │   └── 512/
-    │       ├── krunixbase_logo_dark_512.png
-    │       ├── krunixbase_logo_light_512.png
-    │       ├── krunixbase_logo_gradient_512.png
-    │       ├── krunixbase_logo_gradient_mono_512.png
-    │       ├── krunixbase_logo_green_512.png
-    │       ├── krunixbase_logo_dark_green_512.png
-    │       └── krunixbase_logo_outline_512.png
-    │
-    └── README.md
+icons/
+    +---png
+    |   +---220
+    |   |       krunixbase_logo_dark_220.png
+    |   |       krunixbase_logo_gradient_220.png
+    |   |       krunixbase_logo_gradient_mono_220.png
+    |   |       krunixbase_logo_light_220.png
+    |   |       krunixbase_outline_220.png
+    |   |
+    |   \---512
+    |           .gitkeep
+    |           krunixbase_logo_gradient_512.png
+    |
+    \---svg
+        |   krunixbase_logo_dark.svg
+        |   krunixbase_logo_dark_green.svg
+        |   krunixbase_logo_gradient.svg
+        |   krunixbase_logo_green.svg
+        |   krunixbase_logo_light.svg
+        |   krunixbase_logo_monochrome.svg
+        |
+        \---variants
+            +---mono
+            |       krunixbase_logo_gradient_mono.svg
+            |
+            +---outline
+            |       krunixbase_logo_outline.svg
+            |
+            +---premium
+            |       krunixbase_logo_premium.svg
+            |
+            \---solid
+                    krunixbase_logo_solid.svg
 ```
 
 ---
