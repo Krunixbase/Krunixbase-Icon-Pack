@@ -17,9 +17,8 @@ icons/
     |   |       krunixbase_outline_220.png
     |   |
     |   \---512
-    |           .gitkeep
     |           krunixbase_logo_gradient_512.png
-    |
+    |          
     \---svg
         |   krunixbase_logo_dark.svg
         |   krunixbase_logo_dark_green.svg
